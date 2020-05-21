@@ -7,7 +7,8 @@ import {
   StatusBar,
 } from 'react-native';
 
-import { Cabecalho } from './src/Components/Cabecalho';
+import { Header } from './src/Components/Header';
+import { Form }  from './src/Components/Form';
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       <SafeAreaView>
         <ScrollView contentInsetAdjustmentBehavior="automatic">
           <View>
-            <Cabecalho/>
+            <Header/>
+            <Form/>
           </View>
         </ScrollView>
       </SafeAreaView>

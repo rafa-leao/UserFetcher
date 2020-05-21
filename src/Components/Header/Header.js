@@ -3,10 +3,10 @@ import {
   Text,
 } from 'react-native'
 
-import Styles from './Estilo';
+import Styles from './Styles';
 
-const Cabecalho = () => {
+const Header = () => {
     return (<Text style={Styles.title}>UserFetcher</Text>); 
 }
 
-export default Cabecalho;
+export default Header;
