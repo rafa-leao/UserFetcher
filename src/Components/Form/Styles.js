@@ -8,6 +8,18 @@ const Styles = StyleSheet.create({
         marginTop: 20,
         marginRight: 20,
         marginLeft: 20
+    },
+
+    formLabel: {
+        fontSize: 20,
+        textAlign: "center",
+        padding: 20
+    },
+
+    buttonWrapper: {
+        marginTop: 15,
+        marginRight: 80,
+        marginLeft: 80
     }
 });
 

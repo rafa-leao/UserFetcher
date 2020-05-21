@@ -6,7 +6,7 @@ const Styles = StyleSheet.create({
         textAlign: "center",
         borderBottomWidth: 1,
         borderBottomColor: "#20232a",
-        marginTop: 25
+        padding: 10 
     }
 });
 
