@@ -20,6 +20,23 @@ const Styles = StyleSheet.create({
         marginTop: 15,
         marginRight: 80,
         marginLeft: 80
+    },
+
+    avatar: {
+        width: 100,
+        height: 100,
+        borderRadius: 10
+    },
+
+    userWrapper: {
+        borderWidth: 1,
+        borderColor: 'gray',
+        borderRadius: 5,
+        alignItems: 'center',
+        padding: 10,
+        marginTop: 40,
+        marginLeft: 80,
+        marginRight: 80
     }
 });
 
